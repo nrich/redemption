@@ -1,3 +1,9 @@
+redemption (gopc_001%TARGET_NAME%) %PKG_DISTRIBUTION%; urgency=low
+
+  * New version
+
+ -- cgrosjean <cgrosjean at wallix.com>  Sun, 26 Apr 2015 18:34:28 +0200
+
 redemption (0.9.573%TARGET_NAME%) %PKG_DISTRIBUTION%; urgency=low
 
   * New version
