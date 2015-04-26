@@ -246,7 +246,7 @@ def update_changelog_template(newtag):
   changelog = "redemption (%s%%TARGET_NAME%%) %%PKG_DISTRIBUTION%%; urgency=low\n\n" % newtag
   if opts.entry_changelog:
     if not 'EDITOR' in os.environ:
-      os.environ['EDITOR'] = 'nano'
+      os.environ['EDITOR'] = 'editor'
     os.system("%s /tmp/redemption.changelog.tmp" % os.environ['EDITOR'])
     with open("/tmp/redemption.changelog.tmp", "r") as f:
       for line in f:
